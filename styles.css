@@ -1,0 +1,62 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    background-color: #DDDDDD; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+/* Estilo para a div de imagem de fundo */
+#backgroundImage {
+    position: fixed; /* Fixa a imagem no lugar */
+    top: 0;
+    left: 0;
+    width: 100%; /* Largura da imagem será 100% da largura da tela */
+    height: 100vh; /* Altura da imagem será 100% da altura da tela */
+    background-size: contain; /* A imagem irá cobrir todo o espaço da div */
+    background-position: center; /* Centraliza a imagem */
+    z-index: -1; /* Coloca a imagem atrás de outros elementos */
+}
+
+/* Estilo para o nome do membro */
+#memberName {
+    font-size: 24px;
+    color: #DDDDDD; /* Tamanho da fonte do nome */
+    text-align: center; /* Centraliza o nome */
+}
+
+/* Estilo para a biografia do membro */
+#memberBio {
+    font-size: 16px;
+    color: rgb(255, 255, 255); /* Cor do texto da biografia */
+    word-wrap: break-word; /* Quebra de linha para palavras longas */
+    max-height: 200px; /* Altura máxima para o texto da biografia */
+    overflow-y: auto; /* Adiciona rolagem vertical caso o texto seja longo */
+    text-align: justify; /* Justifica o texto para melhor aparência */
+    margin: 10px 20px; /* Margens para o conteúdo não ficar colado nas bordas */
+}
+
+/* Estilo para o link do membro */
+#memberLink {
+    color: red;
+    display: block; /* Exibe o link ao ser encontrado */
+    text-align: center; /* Centraliza o link */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    
+}

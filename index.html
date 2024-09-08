@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homenagem ao Linkin Park</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <section>
+        <!-- Campo de texto para digitar o nome do membro -->
+        <input type="text" id="searchInput" placeholder="Digite o nome do membro">
+    
+        <!-- Botão que aciona a função de pesquisa -->
+        <button onclick="search()">Pesquisar</button>            
+        
+    </section>
+    
+
+    <!-- Container onde os resultados serão exibidos -->
+    <div id="results">
+        <!-- Div para a imagem de fundo -->
+        <div id="backgroundImage"></div>
+        
+        <!-- Div para exibir o nome, a biografia e o link do membro -->
+        <div id="bioContainer">
+            <!-- Título que mostrará o nome do membro -->
+            <h2 id="memberName"></h2>
+            <!-- Parágrafo que mostrará a biografia do membro -->
+            <p id="memberBio"></p>
+            <!-- Link para o site do membro -->
+            <a id="memberLink" href="#" target="_blank" style="display: none;">Saiba mais</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>
+            2024 - Em homenagem à banda Linkin Park.
+        </p>
+        <p>
+            Entre em contato pelo e-mail: edilberto.marcet@gmail.com
+        </p>
+    </footer>
+    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
