@@ -1,6 +1,6 @@
 Linkin Park Tribute
 
-Este projeto é uma homenagem à icônica banda Linkin Park, que marcou gerações com sua música e energia. Com a recente volta da banda, decidimos criar este espaço para celebrar sua história, seus membros e, claro, sua música inesquecível.
+Este projeto é uma homenagem à icônica banda Linkin Park, que marcou gerações com sua música e energia. Com a recente volta da banda, decidir criar este espaço para celebrar sua história, seus membros e, claro, sua música inesquecível.
 
 Recursos:
 
